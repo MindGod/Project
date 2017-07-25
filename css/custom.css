@@ -1,0 +1,10 @@
+.container-fluid {
+	background-color: #3e636c;
+	border: none;
+}
+.form-control{
+	width: 313px;
+	background-color: #c3c6cb;
+	height: 25px;
+}
+
