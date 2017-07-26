@@ -1,10 +1,52 @@
 .container-fluid {
 	background-color: #3e636c;
-	border: none;
 }
 .form-control{
-	width: 313px;
+	width: 313px !important;
 	background-color: #c3c6cb;
 	height: 25px;
+	border-radius: 10px;
 }
+.lang{
+	border: 1px solid #ffffff;
+	border-radius: 10px;
+	padding-top: 2px !important;
+    padding-right: 4px !important;
+    padding-bottom: 2px !important;
+    margin-top: 13px;
+}
+.profile{
+	border-radius: 20px;
+	border: 1px solid #ffffff;
+	margin-top: 6px;
+	width: 35px;
+    height: 35px;
+}
+.navbar-header{
+	margin-left: 300px !important;
+}
+.no_border{
+	border: none;
+}
+.ul_marg{
 
+}
+.padding{
+	padding-top: 2px !important;
+    padding-right: 20px !important;
+    padding-bottom: 2px !important;
+    padding-left: 20px !important;
+    margin-top: 13px;
+}
+@media (max-width: 600px){
+	.ul_marg{
+		margin-left: 0.1px !important;
+	}
+	.navbar-header{
+		margin-left: 0.1px !important;
+	}
+	.profile{
+		margin-left: 10px;
+	}
+
+}
